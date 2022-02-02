@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<title>WEB1-HTML</title>
+<meta charset="utf-8"></head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="1.html">CSS</a></li>
+    <li><a href="1.html">JavaScript</a></li>
+  </ol>
+hello web
+<h1>HTML</h1>
+<p>
+Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong>
+ and web applications.<br>
+Web browsers receive HTML documents from a web server or from local storage and render them into multimedia
+ web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance
+ he document.</p><p>HTML elements are the building blocks of HTML pages.
+  With HTML constructs, images and other objects, such as interactive forms,
+  may be embedded into the rendered page. It provides a means to create structured documents
+  by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+   HTML elements are delineated by tags, written using angle brackets.</p>
+   <br>
+   <h2><u>줄바꿈 태그</u></h2>
+   <p><strong>1. br:</strong> 단순 줄 변경, 따라서 /br은 존재하지 않(필요성이 없음)</p>
+   <p><strong>2. p:</strong> 단락을 묶는 태그(p부터 /p까지 한 단락으로 처리한다)</p><br><br>
+   <h2><u>br과 p의 차이?</u></h2>
+   <p>br은 단순 줄바꾸기로, 사용자의 입맛에 따라 줄바꿈을 자유롭게 할 수 있다는 장점이 있지만, 문장에 의미를 부여하지 않는다<br>
+     하지만 p는 단락으로서 정보의 단위를 묶어준다는 장점을 가지고 있다. 그러나, 디자인의 자유도에서는 br보다 떨어진다. 이를 보완하기 위해
+     <u>CSS</u>태그를 활용할 수 있다. 아래는 그 예시이다.</p>
+
+  <h2><u>CSS?</u></h2>
+  <p> CSS란, HTML과 다른 문법구조를 가진 언어로서, HTML이 텍스트의 정보를 나타낸다면, <strong>CSS는 이 정보를 꾸며주는 역할</strong>을 한다고 볼 수 있다.
+</p>
+<br><br>
+<h2><u>CSS 예제: style-"margin-top 45px"</u></h2>
+<h3>HTML</h3>
+<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u>pages</strong> and web applications.
+  Web browsers recieve HTML documents from a web server or from local storage and render them into multimedia web pages
+  Html describes the structure of a web page semantically and origianlly included cues for the appearance of the document.</p>
+<p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects,
+  such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting
+  structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+  <br>HTML elements are delineated by tags, written using angle brackets.</p>
+
+  <h2><u>Tag의 중요성</u></h2>
+  <p> 태그(Tag)는 왜 중요할까? <br>그 이유는 Tag로 텍스트의 정보를 나타낼 수 있기 때문이다. 가령 예를 들자면 '제목'을 표기하는 태그인
+    heading tag (h1~h6)을 사용할때, 검색 엔진은 해당 태그를 '제목'으로 인식하고 선별적으로 수집할 수 있다.
+    <br>하지만, 디자인이 같고 heading tag를 사용하지 않았을 경우에는 그 정보가 '제목'인지 프로그램상으로 알 수 없기 때문에
+    정보의 노출도가 달라진다.</p><br>
+<h2><u>이미지를 넣는 태그 img</u></h2>
+<h3>속성(attribute): src="value(ex-이미지주소)"</h3>
+<p><img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png"></p>
+<p><u>이미지의 크기를 바꾸는 속성1 width-50%로 축소한 예시</u></p>
+<p><img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png" width="50%"></p>
+<br><br>
+<h2><u>부모와 자식</u></h2>
+<p>부모(parent)와 자식(child) 관계란 상하관계를 나타내는 태그이다.</p><br>
+<h2><u>목차를 표기하기 위한 태그 li(list) 예시</u></h2>
+<li>1.HTML</li><li>2.CSS</li><li>3.JavaScript</li><br><br>
+
+
+<h2><u>list를 분리하는 태그 ul(unordered list-비순차 리스) 예</u></h2>
+<ul>
+  <li>1.HTML</li><li>2.CSS</li><li>3.JavaScript</li><br><br></ul>
+<ul>
+  <li>dongjin1</li><li>dongjin2</li><li>dongjin3</li></ul>
+<br><br>
+<h2><u>list를 분리하는 태그 ol(ordered list-비순차 리스트) 예</u></h2>
+<ol>
+  <li>1.HTML</li><li>2.CSS</li><li>3.JavaScript</li><br><br></ol>
+<ol>
+  <li>dongjin1</li><li>dongjin2</li><li>dongjin3</li></ol>
+<br><br>
+<h2><u>탭의 제목을 표기하는 태그 title</u></h2>
+<p>title 태그는 검색엔진이 웹페이지를 분석할때 가장 중요한 태그로서, 탭페이지의 정보를 표기할때도 사용됩니다. 최상단에다가 기입</p>
+<br><br>
+<h2><u>웹페이지의 문자표기정보 meta charset="utf-8"</u></h2>
+<p>웹페이지의 문자를 UTF-8로 만들어졌다는걸 표기한다</P>
+<br><br>
+<h2><u> 내용의 특성에 따라 분류하는 방법-head/body tag</u></h2>
+<p><u>예시</u></p>
+<head>  </head><body><ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+<h1>HTML</h1>
+<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+</p>
+</body>
+<br><br>
+<h2><u>웹페이지가 html로 작성됨을 알리는 코드: !doctype html </u></h2>
+<h2><u>링크를 작성할때 사용하는 태그 a(anchor), 속성 href(hypertext reference)</u></h2>
+<p>
+<a href="https://www.w3.orgs/TR/html5:" target="_blank" title="html5 specification">Hypertext Markup Language(HTML)</a> is the standard markup language for creating web pages and web application.</p>
+
+</body>
+</html>
